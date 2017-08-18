@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>732</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>551</width>
+      <height>291</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView_2">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>10</y>
+      <width>131</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>新宋体</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>测试开始</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>380</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>新宋体</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>重新测试</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>553</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>良率：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_2"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>失败：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_3"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>已测试：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <family>新宋体</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string> MAC：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_4"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>label_2</zorder>
+   <zorder>lineEdit_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>tableView</zorder>
+   <zorder>tableView_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>732</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>测试配置</string>
+    </property>
+    <addaction name="loginaction"/>
+    <addaction name="separator"/>
+    <addaction name="checkaction"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>统计</string>
+    </property>
+    <addaction name="statisaction"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>关于</string>
+    </property>
+    <addaction name="aboutaction"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <action name="loginaction">
+   <property name="text">
+    <string>输入密码</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+    </font>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::ApplicationSpecificRole</enum>
+   </property>
+  </action>
+  <action name="checkaction">
+   <property name="text">
+    <string>测试项选择</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+    </font>
+   </property>
+  </action>
+  <action name="statisaction">
+   <property name="text">
+    <string>详细统计</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="aboutaction">
+   <property name="text">
+    <string>关于我们</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
